@@ -48,7 +48,7 @@ public class ProjectionTest2 : MonoBehaviour {
     void OnGUI()
     {
        if(_renderTexture!=null){
-        	GUI.DrawTexture(new Rect(0, 0, 120, 120), _renderTexture, ScaleMode.StretchToFill, true, 10.0F);
+        	//GUI.DrawTexture(new Rect(0, 0, 120, 120), _renderTexture, ScaleMode.StretchToFill, true, 10.0F);
        }
     }
 
